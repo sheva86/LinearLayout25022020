@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    android:background="#f20"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-<!--cách 1 : tạo thẻ view sẽ chứa 1 view khác-->
-    <TextView>
+    <TextView
+        android:background="#FFEB3B"
+        android:text="View 1"
+        android:textSize="20sp"
+        android:textColor="#0E0E0E"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="60dp"
+        android:text="View 2"
+        android:textSize="30sp"
+        android:background="#4CFF00"
 
-    </TextView>
-
-    <!-- cách 2 :tạo thẻ view dùng hiển thị -->
-    <TextView/>
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
