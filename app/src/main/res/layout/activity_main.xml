@@ -10,6 +10,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:gravity="center"
         android:layout_weight="1"
         android:background="#FFEB3B"
         android:text="View 1"
@@ -18,6 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
+        android:gravity="center"
         android:layout_weight="1"
         android:background="#007bff"
         android:text="View 2"
